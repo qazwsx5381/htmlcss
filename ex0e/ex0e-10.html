@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex로 구현</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            background-color: blanchedalmond;
+        }
+
+        h1 {
+            margin: 0px 0px 45px 0px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .header {
+            background-color: blanchedalmond;
+            ;
+        }
+
+        .main {
+            display: flex;
+            height: 600px;
+            width: 600px;
+            border: 3px solid;
+            flex-flow: column wrap;
+        }
+
+        .t1 {
+            background-color: white;
+            margin: 10px;
+            height: 280px;
+            width: 280px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>flex로 구현</h1>
+            <div class="main">
+                <div class="t1">
+                    <img src="https://pbs.twimg.com/media/Fa0VBxiVEAEQ6Rs.jpg:large" alt="아이브" height="200" width="280">
+                    Title1
+                </div>
+                <div class="t1">
+                    <img src="https://pbs.twimg.com/media/Fa0VBxiVEAEQ6Rs.jpg:large" alt="아이브" height="200" width="280">
+                    Title2
+                </div>
+                <div class="t1">
+                    <img src="https://pbs.twimg.com/media/Fa0VBxiVEAEQ6Rs.jpg:large" alt="아이브" height="200" width="280">
+                    Title3
+                </div>
+                <div class="t1">
+                    <img src="https://pbs.twimg.com/media/Fa0VBxiVEAEQ6Rs.jpg:large" alt="아이브" height="200" width="280">
+                    Title4
+                </div>
+            </div>
+        </div>
+    </div>
+</body></html>

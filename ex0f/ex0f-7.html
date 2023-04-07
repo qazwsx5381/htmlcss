@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+        :root{
+            --c1:#f63131;
+            --c2:#fea4a4;
+            --c3:#23d600;
+            --c4:#90ff7a;
+            --c5:#002fb2;
+            --c6:#6b92ff;
+        }
+        html, body{
+            height: auto;
+            width: auto;
+        }
+        .wrap{
+            display: grid;
+            grid-template-columns: 2fr 6fr 2fr;
+            grid-template-rows: 7fr 5fr 20fr 4fr;
+        }
+        div{
+            margin: 3px;
+            border: 1px solid #CCC;
+            box-shadow: 1px 1px 4px;
+        }
+        .c1{
+            background-color: var(--c1);
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .c2{
+            background-color: var(--c2);
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .c3{
+            background-color: var(--c3);
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .c4{
+            background-color: var(--c4);
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+        .c5{
+            background-color: var(--c5);
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+        .c6{
+            background-color: var(--c6);
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="c1">c1</div>
+        <div class="c2">c2</div>
+        <div class="c3">c3</div>
+        <div class="c4">c4</div>
+        <div class="c5">c5</div>
+        <div class="c6">c6</div>
+    </div>
+</body>
+</html>

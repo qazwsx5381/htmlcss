@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p {
+            font: 3rem bold;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        div {
+            display: flex;
+            background-color: red;
+            height: 200px;
+            width: 300px;
+            font-size: 30px;
+            animation: test 10s infinite;
+            color: white;
+            padding: 20px;
+            border-radius: 35px;
+        }
+
+        @keyframes test {
+            25% {
+                /*                transform: scale(2, 1);*/
+                /*                transform-origin: left top;*/
+                width: 500px;
+                height: 200px;
+                background-color: blue;
+            }
+
+            50% {
+                /*                transform: scale(2, 1.5);*/
+                /*                transform-origin: left top;*/
+                width: 500px;
+                height: 400px;
+                background-color: blueviolet;
+            }
+
+            75% {
+                /*                transform: scale(1, 1.5);*/
+                /*                transform-origin: left top;*/
+                width: 300px;
+                height: 400px;
+                background-color: green;
+            }
+
+            100% {
+                width: 300px;
+                height: 200px;
+                /*                transform: scale(1, 1);*/
+                /*                transform-origin: left top;*/
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>Animation</p>
+    <div>Animation is my pleasure. Animationwork gives me great pleasure.</div>
+</body></html>

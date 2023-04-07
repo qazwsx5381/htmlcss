@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nth-of-type</title>
+    <style>
+        p:nth-of-type(even){
+            color: red;
+        }
+/*
+        타입이 아닌 전부를 셈
+        even : 짝수, odd: 홀수
+        p:nth-child(2n){
+            color: blue;
+        }
+*/
+    </style>
+</head>
+<body>
+    <div>여기는 카운트 세는 곳이 아님</div>
+    <p>1 번째 태그</p>
+    <p>2 번째 태그</p>
+    <div>여기는 카운트 세는 곳이 아님</div>
+    <p>3 번째 태그</p>
+    <p>4 번째 태그</p>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>예제 4-6</title>
+</head>
+
+<body>
+    <!-- form 데이터 -->
+    <!--
+    <form action="myform.html">
+        First name : <input>
+        Last name : <input>
+        <input type="submit">
+    </form>
+    -->
+    <form action="myform.html">
+        <label for="fname">First name :</label>
+        <input type="text" id="fname">
+        <label for="lname">Last name :</label>
+        <input type="text" id="lname">
+        <input type="submit">
+        <hr>
+        checkbox : <input type="checkbox">
+        checkbox1 : <input type="checkbox">
+        checkbox2 : <input type="checkbox">
+        <hr>
+        radio : <input type="radio" name="gen">
+        radio1 : <input type="radio" name="gen">
+        <hr>
+        password : <input type="password">
+        <hr>
+        date : <input type="date">
+        <hr>
+        file : <input type="file">
+    </form>
+    <!-- form 태그는 서버로 전송할 때 사용 -->
+    <!-- input 태그는 form 태그 안에서만 사용 -->
+    <!-- checkbox는 여러 개 사용가능, radio는 여러개 사용 불가 -->
+    <!-- radio는 같은 name를 사용해야 중복체크가 되지않음 -->
+</body></html>

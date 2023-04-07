@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        container{
+            border: 5px solid #AAFF00;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            /* align-content: flex-start; */
+        }
+        div{
+            background-color: brown;
+            width: 100px;
+            height: 100px;
+        }
+        .as{
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <container>
+        <div></div>
+        <div class="as"></div>
+        <div></div>
+        <div></div>
+        <div class="as"></div>
+        <div></div>
+    </container>
+</body>
+</html>

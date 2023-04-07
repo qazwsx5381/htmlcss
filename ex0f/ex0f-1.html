@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>가상요소 선택자</title>
+    <style>
+        p:first-child {
+            color: blue;
+        }
+
+        p:first-child:after {
+            content: "예찬";
+            color: limegreen;
+        }
+
+        p:before {
+            content: "★ ";
+        }
+
+        p:nth-child(2) {
+            color: rosybrown;
+            background-color: yellow;
+            display: inline;
+        }
+
+        p:nth-last-of-type(3):after {
+            content: " ☆";
+        }
+
+        p:nth-last-of-type(2):after {
+            content: " 메로나"
+        }
+
+        p:nth-last-of-type(1):after {
+            content: ". 감사합니다~◇"
+        }
+    </style>
+</head>
+
+<body>
+    <p>나의사랑</p>
+    <p>나의가족</p>
+    <p>행복미래</p>
+    <p>올 때</p>
+    <p>이제 끝</p>
+</body></html>

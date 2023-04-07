@@ -1,0 +1,24 @@
+
+@media(max-width:1200px){
+body{
+   color:white;
+  background: url(https://i.pinimg.com/originals/92/2b/84/922b84a5bb3a01bda7dede9bf5bd976d.jpg) no-repeat;
+}
+}
+@media(max-width:600px){
+  body{
+     color:yellow;
+background:url(https://th.bing.com/th/id/R.18c0fe1f1a242443b5b248b317b6242c?rik=hh81Bf9L0GcQrg&riu=http%3a%2f%2fplaywares.com%2ffiles%2fattach%2fimages%2f423601%2f260%2f509%2f003%2f478bd14d363976f0a87c6c34d093ca2e.jpg&ehk=6MPPDSrFA04KnQAkWIU%2f4id0OcZXm3hEpoEi9dp2gSM%3d&risl=&pid=ImgRaw&r=0)
+}
+}
+
+
+
+h1{
+ 
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+span{
+  padding: 5px;
+}

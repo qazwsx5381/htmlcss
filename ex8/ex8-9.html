@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>only-of-type</title>
+    <style>
+        span :not(:only-of-type){
+            color: red
+        }
+    </style>
+</head>
+
+<body>
+    <span>
+        <div>난 div 태그의 1 번째야</div>
+        <p>난 유일한 p 태그야</p>
+        <div>난 div 태그의 2 번째야</div>
+        <div>
+            난 div 태그의 3 번째야
+            <i>난 유일한 i태그야</i>
+            <em>난 em태그의 1 번째야</em>
+            <em>난 em태그의 2 번째야</em>
+        </div>
+    </span>
+    <span>
+        
+    </span>
+</body></html>

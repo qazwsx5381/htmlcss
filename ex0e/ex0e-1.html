@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        h1 {
+            margin: 4px;
+            padding: 0px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .header {
+            height: 65px;
+            background-color: bisque;
+        }
+
+        .nav {
+            background-color: darkcyan;
+            height: 40px;
+        }
+
+        .main {
+            display: flex;
+            flex: 1;
+            /*
+            flex: 1;
+            flex-shrink: 1;
+            flex-basis: 0;
+            */
+        }
+
+        .content {
+            background-color: dodgerblue;
+            flex: 3;
+        }
+
+        .aside {
+            background-color: coral;
+            width: 80px;
+        }
+
+
+        .footer {
+            height: 65px;
+            background-color: silver;
+        }
+    </style>
+</head>
+
+<body>
+    <container>
+        <div class="container">
+            <div class="header">
+                <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+            </div>
+            <div class="nav">nav</div>
+            <div class="main">
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et distinctio, odio id quaerat molestias ducimus ad impedit facere dignissimos in, quibusdam sed? Aut quas repellat dolore accusamus odit maxime maiores accusantium, eaque quaerat sed tempora, nemo inventore qui ipsam ducimus praesentium, explicabo saepe voluptate labore neque ad. Sapiente natus eveniet quo reiciendis optio corporis, aut iste accusamus sit consequatur tempora voluptate temporibus voluptatum, culpa minima eaque nemo facere, ducimus eius maxime? Reprehenderit dignissimos aut velit pariatur quisquam illum reiciendis suscipit consequuntur! Eos hic mollitia facilis! Aliquid vitae, repudiandae placeat suscipit consequuntur rem soluta eius deleniti labore, consequatur commodi minima velit?
+                </div>
+                <div class="aside">aside</div>
+            </div>
+            <div class="footer">footer</div>
+        </div>
+    </container>
+</body></html>

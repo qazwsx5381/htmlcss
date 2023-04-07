@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>position 예제</title>
+</head>
+<style>
+    html,
+    body {
+        height: 100%;
+        font: 30px "굴림"
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 250px;
+        opacity: 0.8;
+    }
+
+    .a1 {
+        background-color: red;
+        height: 250px;
+        padding: 20px;
+    }
+
+    .a2 {
+        background-color: green;
+        height: 250px;
+        position: relative;
+        left: 100px;
+        top: -170px;
+        padding: 20px;
+        z-index: 2;
+        opacity: 0.5;
+    }
+
+    .a3 {
+        background-color: skyblue;
+        height: 250px;
+        position: relative;
+        left: 50px;
+        top: -310px;
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <div>
+        <div class="a1">
+            박스의 크기와 위치를 잘 살펴보아야 합니다.
+        </div>
+        <div class="a2">
+            박스의 포지션 속성을 바꿔가며 테스트해 보아야합니다.
+        </div>
+        <div class="a3">
+            포지션을 이해하기 위해서는 시험해보고 관찰해 보는 것이 절대적으로 필요합니다.
+        </div>
+
+    </div>
+</body></html>

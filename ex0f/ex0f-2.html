@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        ul {
+            padding: 0px;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+            padding: 0 15px;
+            text-shadow: 1px 1px 10px gray;
+/*            box-shadow: 0 0 3px 0 gray;*/
+        }
+
+        li:hover {
+            color: red;
+            font-weight: bolder;
+        }
+
+        li:after {
+            content: "|";
+            float: right;
+            color: #ccc;
+            margin-right: -17px;
+        }
+
+        li:last-child:after {
+            content: "";
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>로그인</li>
+        <li>회원가입</li>
+        <li>마이페이지</li>
+        <li>사이트맵</li>
+        <li>고객센터</li>
+    </ul>
+</body></html>

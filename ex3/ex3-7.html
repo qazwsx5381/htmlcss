@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>예제 7-12 자손선택자</title>
+    <style>
+        div p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <!-- div>p{child$}*2+div>p{grandchild}^^p -->
+    <div>
+        <p>child1</p>
+        <p>child2</p>
+        <span>
+            <p>grandchild</p>
+        </span>
+    </div>
+    <p>neighborhood child</p>
+</body></html>

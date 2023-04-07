@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>순서 목록(Ordered List)</title>
+    <!-- il : List Item, ol : Ordered List -->
+</head>
+
+<body>
+    <a href="./ex0b-0.html">HOME</a>
+    <hr>
+    <h1>반응형 웹퍼블리싱 학습 순서</h1>
+    <ol type="A" start="5">
+        <li>html</li>
+        <li>CSS</li>
+            <ol type="i" start="5">
+                <li>ex1</li>
+                <li>ex2</li>
+                <li>ex3</li>
+            </ol>
+        <!-- <mark><li>Javascript</li></mark> : css파트 -->
+        <li><strong>Javascript</strong>
+            <ol type="a" start="10">
+                <li><mark>node.js</mark></li>
+                <li value="20"><u>express</u></li>
+                <li>vue.js</li>
+                <li>V8</li>
+            </ol>
+        </li>
+        <!-- 리스트 내부에 세부 항목을 넣을 때 li 안에 바로 li 태그는 사용이 안된다. il태그 안에는 ol태그 사용 후 il 태그 사용 -->
+        <!-- ol 태그 안에는 start, il 태그 안에는 value 사용 -->
+    </ol>
+</body></html>

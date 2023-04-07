@@ -1,0 +1,30 @@
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+* {
+    color: lightgreen;
+}
+
+#p1 {
+    color: brown;
+}
+
+.my-class1 {
+    color: red;
+}
+
+.my-class2 {
+    background-color: cadetblue;
+}
+
+div p {
+    color: darkviolet;
+}
+/* 우선순위 */
+/* id 선택자 (#) > class 선택자 (.) > 유형 선택자 (태그명) > 전체 선택자 (*)*/
