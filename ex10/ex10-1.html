@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HAMBURGER</title>
+    <style>
+        :root {
+            --body-bg: crimson;
+            --bamburger-bg: black;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background-color: var(--body-bg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hamburger-title {
+            color: white;
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+
+        .hamburger-container {
+            display: inline-block;
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background: var(--hamburger-bg);
+        }
+
+        .hamburger,
+        .hamburger::before,
+        .hamburger:after {
+            position: absolute;
+            width: 100%;
+            height: 10px;
+            transition: 0.5s;
+            background: white;
+        }
+
+        .hamburger::before,
+        .hamburger::after {
+            content: "";
+        }
+
+        .hamburger {
+            top: 50%;
+        }
+
+        .hamburger::before {
+            top: -30px;
+        }
+
+        .hamburger::after {
+            top: 30px;
+        }
+
+        .toggle:checked~.hamburger::after {
+            top: 0;
+            transform: rotate(225deg);
+        }
+
+        .toggle:checked~.hamburger::before {
+            top: 0;
+            transform: rotate(135deg);
+        }
+
+        .toggle:checked~.hamburger {
+            background: var(--hamburger-bg);
+        }
+
+        .toggle {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="hamburger-title">My hamburger</span>
+    <label>
+        <div class="hamburger-container">
+            <input type="checkbox" class="toggle">
+            <div class="hamburger">
+            </div>
+        </div>
+    </label>
+</body></html>
