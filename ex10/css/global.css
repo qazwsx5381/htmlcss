@@ -1,9 +1,12 @@
 @import "reset.css";
 @import "variable.css";
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;700&display=swap');
+@import "navigation-bar.css";
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap');
 
 body {
-    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-family: 'Sunflower', sans-serif;
     background-color: var(--background-purple);
     color: white;
 }
@@ -14,7 +17,9 @@ body {
     box-sizing: border-box;
 }
 
-
+hr{
+    border-color: rebeccapurple;
+}
 
 input {
     border: none;
@@ -30,4 +35,7 @@ input {
 
 .position-relative {
     position: relative;
+}
+.a_color{
+    color: white;
 }
