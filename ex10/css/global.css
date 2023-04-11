@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "variable.css";
 @import "navigation-bar.css";
+@import "media-query.css";
 @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
 @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
 @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap');
@@ -17,7 +18,7 @@ body {
     box-sizing: border-box;
 }
 
-hr{
+hr {
     border-color: rebeccapurple;
 }
 
@@ -36,6 +37,7 @@ input {
 .position-relative {
     position: relative;
 }
-.a_color{
+
+.a_color {
     color: white;
 }
