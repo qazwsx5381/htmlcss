@@ -1,0 +1,53 @@
+html, body{
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    text-align: left;
+}
+.header{
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 10px;
+    height: 80px;
+}
+.main{
+    display: flex;
+    height: 500px;
+}
+.nav{
+    background-color: darkgray;
+    flex: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px 5px 5px 0;
+}
+.article{
+    background-color: chartreuse;
+    flex: 5;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+.footer{
+    background-color: fuchsia;
+    border-radius: 15px;
+    padding: 10px;
+    height: 80px;
+}
+.table{
+    border: 2px solid black;
+    margin: auto;
+}
+th, td{
+    border: 1px solid black;
+}
+.join_btn{
+    text-decoration: inherit;
+}
+.label {
+	display: inline-block;
+    width: 110px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>로그인</h3>
+    <form action="main.html">
+        <span class="label">
+        <label for="username">ID</label>
+        </span>
+        <input type="text" name="username" required autocomplete="on"><br>
+        <span class="label">
+        <label for="password">패스워드</label>
+        </span>
+        <input type="password" name="password" required autocomplete="off"><br>
+        <input type="submit" value="로그인" onclick="'main.html'">
+        <input type="button" value="회원가입" onclick="location.href='join.html'">
+    </form>
+</body>
+
+</html>
